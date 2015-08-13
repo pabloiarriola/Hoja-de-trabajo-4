@@ -17,8 +17,6 @@ public class Calculadora implements ADTCalculadora<Object>{
 	    
 		//Variable que almacena el resultado de la operacion postfix
 		private Double total;
-		//Pila que se utilizara para el almacenamiento temporal
-	    private Stack<Double> ingreso= new Stack<Double>();
 	    //Variable en donde se carga el String que contiene la operacion postfix
 	    private String data;
 	    

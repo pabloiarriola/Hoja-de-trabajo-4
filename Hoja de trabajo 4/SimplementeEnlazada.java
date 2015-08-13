@@ -140,7 +140,7 @@ public class SimplementeEnlazada<E> implements ADTStack<E>{
 		public boolean isEmpty();
 		//Metodo que hace push a un elemento a la pila
 		public void push(E x){
-			addFirst(E x)
+			addFirst(E x);
 		}
 		//Metodo que hace pop a un elemento de la pila
 		public E pop() throws Exception{
