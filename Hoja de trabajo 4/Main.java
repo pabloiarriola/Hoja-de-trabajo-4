@@ -6,14 +6,24 @@ Bryan Chan, 14469
 */
 
 import java.io.FileNotFoundException;
+import java.util.Scanner;
 
-public class main {
+public class Main {
 
-	public static void main(String[] args) throws Exception {
+	public static void Main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		//Se le pregunta al usuario que tipo de listas quiere utilizar
+		System.out.println("1.ArrayList\n2.Vector\n3.Lista simplemente enlazada\n4.Lista doblemente enlazada\n5.Lista circular");
+		int seleccion = entrada.nextInt();
 
+		
 		//Se crea el objeto calculadora
-        Calculadora calculadora = new Calculadora();
+        Calculadora calculadora = new Calculadora(seleccion);
+        
+        
         //Se lee el archivo a operar
         calculadora.readFile("/Users/bchangip/Documents/workspace/Hoja de trabajo 2/src/datos.txt");
         //Se encierra el metodo calcular ya que puede devolver la excepcion de que el formato postfix es incorrecto
