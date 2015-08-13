@@ -8,7 +8,7 @@ Bryan Chan,
 
 import java.util.Vector;
 
-public class Stack<E> implements ADTStack<E> {
+public class Stack<E> implements ADTStack<E>{
 	
 	protected Vector<E> pila;
 	
@@ -47,5 +47,4 @@ public class Stack<E> implements ADTStack<E> {
 		// TODO Auto-generated method stub
 		return pila.isEmpty();
 	}
-
 }

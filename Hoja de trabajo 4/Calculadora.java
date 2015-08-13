@@ -20,7 +20,29 @@ public class Calculadora implements ADTCalculadora<Object>{
 		//Pila que se utilizara para el almacenamiento temporal
 	    private Stack<Double> ingreso= new Stack<Double>();
 	    //Variable en donde se carga el String que contiene la operacion postfix
-	    private String data; 
+	    private String data;
+	    
+	    
+	    public Calculadora(int tipo){
+	    	if(tipo==1){
+	    		private AbstractPila<Double> ingreso = new AbstractPila<Double>();
+	    	}
+	    	if(tipo==2){
+	    		private Stack<Double> ingreso = new Stack<Double>();
+	    	}
+	    	if(tipo==3){
+	    		private SimplementeEnlazada<Double> ingreso = new SimplementeEnlazada<Double>();
+	    	}
+	    	if(tipo==4){
+	    		private DoblementeEnlazada<Double> ingreso = new DoblementeEnlazada<Double>();
+	    	}
+	    	if(tipo==5){
+	    		private Circular<Double> ingreso = new Circular<Double>();
+	    	}
+	    	
+	    }
+	    
+	    
 	    
 	  //Metodo que leera el archivo
 	    public void readFile(String file) throws FileNotFoundException {

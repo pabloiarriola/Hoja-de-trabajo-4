@@ -131,4 +131,20 @@ public class DoblementeEnlazada<E> implements listaEnlazada<E> {
 		return encontrado;
 	}
 
+	//Metodo que vacia la pila
+			public void empty();
+			//Metodo que revisa si la pila esta vacia
+			public boolean isEmpty();
+			//Metodo que hace push a un elemento a la pila
+			public void push(E x){
+				addFirst(E x)
+			}
+			//Metodo que hace pop a un elemento de la pila
+			public E pop() throws Exception{
+				return removeFirst();
+			}
+			//Metodo que devuelve el tamano de la pila
+			public int size();
+			//Metodo que devuelve el elemento del fondo de la pila
+			public E peek() throws Exception;
 }

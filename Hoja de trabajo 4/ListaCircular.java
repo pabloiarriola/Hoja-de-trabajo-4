@@ -1,4 +1,4 @@
-public class ListaCircular <E> implements listaEnlazada{
+public class ListaCircular<E> implements listaEnlazada<E>{
     
     class Nodo {
         int info;
