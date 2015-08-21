@@ -2,7 +2,7 @@
 /*
 Universidad del Valle de Guatemala
 Seccion: 10
-Yasmin Valdez , 14079
+Pablo Arriola
 Bryan Chan, 14469
 */
 
